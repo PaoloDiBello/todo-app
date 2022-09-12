@@ -88,7 +88,8 @@ const AddNewTask = () => {
               <InputAdornment position="end">
                 <Button
                   variant="contained"
-                  component="label"
+                  component="button"
+                  type="submit"
                   disabled={!newTask}
                 >
                   Add
