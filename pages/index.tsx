@@ -1,8 +1,6 @@
 import * as React from "react";
 import type { NextPage } from "next";
 import Container from "@mui/material/Container";
-import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
 import Footer from "../src/Footer";
 import Homepage from "./Homepage";
 import Header from "../src/Header";

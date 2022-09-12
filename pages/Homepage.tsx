@@ -6,9 +6,9 @@ import {
   Theme,
 } from "@mui/material";
 import React from "react";
-import AddNewTask from "./components/AddNewTask";
-import Tasks from "./components/Tasks";
-import { useTasksValue } from "./context";
+import AddNewTask from "../src/components/AddNewTask";
+import Tasks from "../src/components/Tasks";
+import { useTasksValue } from "../src/context";
 
 const Homepage = () => {
   const { isLoadingTasks } = useTasksValue();
