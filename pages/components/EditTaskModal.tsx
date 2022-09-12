@@ -86,7 +86,7 @@ export default function EditTaskModal({
         done: taskTemp?.done === "true",
       });
     }
-  }, [task, tasks, open]);
+  }, [task, tasks, open, reset, selected]);
 
   const onSubmit: SubmitHandler<Inputs> = (d) => {
     const data = dirtyValues(dirtyFields, d) as Inputs;

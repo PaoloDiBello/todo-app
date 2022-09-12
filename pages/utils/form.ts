@@ -16,6 +16,7 @@ export const dirtyValues = (
   return Object.fromEntries(
     Object.keys(dirtyFields).map((key) => [
       key,
+      // @ts-ignore: Unreachable code error
       dirtyValues(dirtyFields[key], allValues[key]),
     ])
   );
