@@ -218,8 +218,8 @@ const EnhancedTableToolbar = (props: EnhancedTableToolbarProps) => {
     setIsEdit(true);
   };
   const onClickDelete = () => {
-    selected.map((s) => {
-      const docRef = doc(db, "tasks", s);
+    for (const taskId of selected) {
+      const docRef = doc(db, "tasks", taskId);
       deleteDoc(docRef)
         .then(() => {
           setResult({ ...initialResult, success: "delete" });
@@ -230,7 +230,7 @@ const EnhancedTableToolbar = (props: EnhancedTableToolbarProps) => {
           console.log(error);
           setResult({ ...initialResult, failed: "delete" });
         });
-    });
+    }
   };
 
   const handleCloseEditModal = () => {
