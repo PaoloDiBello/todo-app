@@ -2,6 +2,8 @@
 
 [![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#)
 [![Firebase-UI Badge](https://img.shields.io/badge/-firebase-23039BE5?style=for-the-badge&labelColor=black&logo=firebase&logoColor=)](#)
+[![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)](#)
+
 
 # `Website Link`
 
