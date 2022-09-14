@@ -7,11 +7,17 @@
 [![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](#)
 [![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)](#)
 
-# `Website deployed on Vercel`
+## `Website deployed on Vercel`
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+
 [Todo app](https://vercel.com/dibellopol/todo-app)
 
 
+## `Notes`
+
+- You can edit or delete a task by clicking on the checkbox on the first column of the table for each task, then a header will appear with two icons, a pencil (if you have selected only one) and rubbish can. 
+- You can only edit one task at the time
+- You can delete more tasks at the time
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
