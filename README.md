@@ -1,3 +1,14 @@
+## Tech stack used
+
+[![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#)
+[![Firebase-UI Badge](https://img.shields.io/badge/-firebase-23039BE5?style=for-the-badge&labelColor=black&logo=firebase&logoColor=)](#)
+
+# `Website Link`
+
+[Todo app](https://vercel.com/dibellopol/todo-app)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
